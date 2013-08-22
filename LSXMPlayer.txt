@@ -1,0 +1,28 @@
+LSXMPlayer 1.0 by Alurcard2
+
+This module will let you play extended module (.xm) files.
+
+Settings:
+-------------------------------------------------------------------------------
+ XMPlayerVolume [0 through 25, default=25]
+ - Sets the volume to play XM files at.
+
+Bangs
+-------------------------------------------------------------------------------
+!PlayXM [file]
+ - Plays the XM file.
+!PlayXMNoLoop [file]
+ - An XM track plays repeatedly by default. Use this bang to play it only once.
+!PauseXM
+ - Pause any currently playing XM file.
+!ResumeXM
+ - Resumes any paused XM file.
+!SetXMVolume [0 through 25]
+ - Sets the volume to play XM files at.
+!StopXM
+ - Stops any currently playing XM file.
+ 
+Changelog:
+-------------------------------------------------------------------------------
+v1.0 (2010-08-15)
+ - Initial Release.
